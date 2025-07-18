@@ -84,4 +84,4 @@ Fecha de última actualización: 2025-07-17
 
 ## Contacto
 
-Para soporte o consultas, contacte a: nicole1ariadna@github.com
+Para soporte o consultas, contacte a: nicolecelemin316@gmail.com
