@@ -1,0 +1,18 @@
+# Sistema de Modelado de Unidades Móviles de Salud
+# Dependencias del proyecto
+# Última actualización: 2025-07-17
+
+# Bibliotecas científicas y de cálculo
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.8.0
+matplotlib>=3.5.0
+
+# Generación de informes
+reportlab>=3.6.0
+
+# Manejo de imágenes (para tkinter/matplotlib)
+pillow>=9.0.0
+
+# Para ejecución con interfaz gráfica
+# tkinter viene incluido con Python por lo que no se lista aquí

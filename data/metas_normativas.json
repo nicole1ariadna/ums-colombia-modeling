@@ -1,0 +1,44 @@
+{
+  "cobertura": {
+    "poblacion_objetivo": 1.0,
+    "frecuencia_visitas": 2,
+    "tiempo_acceso_max": 60,
+    "satisfaccion_min": 0.95
+  },
+  "operacion": {
+    "capacidad_optima": 40,
+    "eficiencia_operativa": 0.8,
+    "resolucion_primer_nivel": 0.85,
+    "tiempo_espera_max": 30
+  },
+  "financiero": {
+    "costo_unitario_max": 80000,
+    "sostenibilidad_min": 0.6,
+    "autofinanciacion": 0.6
+  },
+  "calidad": {
+    "continuidad_atencion": 0.85,
+    "integracion_historia": 1.0,
+    "referencia_efectiva": 0.9
+  },
+  "restricciones": [
+    {
+      "tipo": "cobertura_minima",
+      "valor": 0.9
+    },
+    {
+      "tipo": "calidad_minima",
+      "valor": 0.85
+    },
+    {
+      "tipo": "sostenibilidad_minima",
+      "valor": 0.6
+    }
+  ],
+  "salud_rural": {
+    "cobertura_vacunacion": 0.95,
+    "mortalidad_infantil": 10,
+    "ums_por_habitantes": 10000,
+    "integracion_telemedicina": 1.0
+  }
+}

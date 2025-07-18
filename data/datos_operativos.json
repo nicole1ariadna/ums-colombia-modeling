@@ -1,0 +1,31 @@
+{
+  "capacidad": {
+    "pacientes_dia": 24,
+    "dias_mes": 20,
+    "eficiencia": 0.4
+  },
+  "costos": {
+    "fijo_mensual": 17291667,
+    "variable_paciente": 45000,
+    "mantenimiento_anual": 20750000,
+    "costo_unitario_atencion": 103750,
+    "costo_vehiculo": 580000000
+  },
+  "personal": {
+    "medico": 1,
+    "enfermera": 1,
+    "conductor": 1,
+    "costo_personal_mes": 8500000
+  },
+  "servicios": {
+    "consulta_general": 0.70,
+    "vacunacion": 0.20,
+    "control_prenatal": 0.10
+  },
+  "cobertura": {
+    "poblacion_objetivo": 10000,
+    "frecuencia_visitas": 1,
+    "radio_cobertura": 50,
+    "poblacion_por_km2": 15
+  }
+}

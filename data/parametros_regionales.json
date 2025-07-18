@@ -1,0 +1,84 @@
+{
+  "regiones": [
+    {
+      "nombre": "Amazonía",
+      "departamentos": ["Amazonas", "Caquetá", "Putumayo", "Guaviare", "Vaupés"],
+      "parametros": {
+        "poblacion_por_km2": 2.5,
+        "tiempo_desplazamiento_promedio": 4.2,
+        "cobertura_salud_base": 0.32,
+        "mortalidad_infantil": 22.3,
+        "cobertura_vacunacion": 0.58,
+        "acceso_aps": 0.35,
+        "factor_dificultad_acceso": 1.8,
+        "costo_operativo_adicional": 0.4
+      }
+    },
+    {
+      "nombre": "Andina",
+      "departamentos": ["Boyacá", "Cundinamarca", "Santander", "Norte de Santander", "Huila", "Tolima"],
+      "parametros": {
+        "poblacion_por_km2": 65.3,
+        "tiempo_desplazamiento_promedio": 1.8,
+        "cobertura_salud_base": 0.56,
+        "mortalidad_infantil": 14.7,
+        "cobertura_vacunacion": 0.78,
+        "acceso_aps": 0.53,
+        "factor_dificultad_acceso": 1.2,
+        "costo_operativo_adicional": 0.15
+      }
+    },
+    {
+      "nombre": "Caribe",
+      "departamentos": ["Atlántico", "Bolívar", "Cesar", "Córdoba", "La Guajira", "Magdalena", "Sucre"],
+      "parametros": {
+        "poblacion_por_km2": 70.8,
+        "tiempo_desplazamiento_promedio": 1.5,
+        "cobertura_salud_base": 0.48,
+        "mortalidad_infantil": 17.8,
+        "cobertura_vacunacion": 0.72,
+        "acceso_aps": 0.45,
+        "factor_dificultad_acceso": 1.1,
+        "costo_operativo_adicional": 0.1
+      }
+    },
+    {
+      "nombre": "Orinoquía",
+      "departamentos": ["Meta", "Casanare", "Arauca", "Vichada"],
+      "parametros": {
+        "poblacion_por_km2": 4.8,
+        "tiempo_desplazamiento_promedio": 3.1,
+        "cobertura_salud_base": 0.38,
+        "mortalidad_infantil": 19.5,
+        "cobertura_vacunacion": 0.64,
+        "acceso_aps": 0.39,
+        "factor_dificultad_acceso": 1.5,
+        "costo_operativo_adicional": 0.25
+      }
+    },
+    {
+      "nombre": "Pacífico",
+      "departamentos": ["Chocó", "Nariño", "Cauca", "Valle del Cauca"],
+      "parametros": {
+        "poblacion_por_km2": 25.4,
+        "tiempo_desplazamiento_promedio": 2.7,
+        "cobertura_salud_base": 0.35,
+        "mortalidad_infantil": 20.1,
+        "cobertura_vacunacion": 0.62,
+        "acceso_aps": 0.37,
+        "factor_dificultad_acceso": 1.6,
+        "costo_operativo_adicional": 0.3
+      }
+    }
+  ],
+  "parametros_predeterminados": {
+    "poblacion_por_km2": 15,
+    "tiempo_desplazamiento_promedio": 2.5,
+    "cobertura_salud_base": 0.42,
+    "mortalidad_infantil": 18,
+    "cobertura_vacunacion": 0.68,
+    "acceso_aps": 0.42,
+    "factor_dificultad_acceso": 1.4,
+    "costo_operativo_adicional": 0.2
+  }
+}

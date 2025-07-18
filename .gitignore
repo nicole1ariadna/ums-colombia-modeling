@@ -1,0 +1,71 @@
+# Archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos generados por la aplicación
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.log
+output/
+
+# Archivos de configuración local
+.env
+*.ini
+config.local.json
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos temporales
+temp/
+tmp/
+.temp/
+.tmp/
+
+# Archivos de base de datos
+*.db
+*.sqlite3
+
+# Archivos de caché
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Resultados de simulación específicos del proyecto
+resultados_simulacion/
+informes_generados/
